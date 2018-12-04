@@ -13,7 +13,7 @@ To execute the exercise, type: `node dogImageGenerator.js`
     - Expected Output: String of an image url
 
  3. Deploy a serverless function to view the image url found in step 2. 
-    - https://medium.freecodecamp.org/i-just-deployed-a-serverless-app-and-i-cant-code-here-s-how-i-did-it-94983d7b43bd
+    - To see a tutorial for setting up a serverless app: https://medium.freecodecamp.org/i-just-deployed-a-serverless-app-and-i-cant-code-here-s-how-i-did-it-94983d7b43bd
     - Endpoint should follow the format: `https://{YOUR_SPECIFIC_URL}.execute-api.us-east-1.amazonaws.com/serverless-dog-image/{subBreed}`
     - Example endpoint would be: `https://0123456789.execute-api.us-east-1.amazonaws.com/serverless-dog-image/basset`
     - BONUS: Optimize performance by keeping the `https://dog.ceo/api/` responses in the warm area of the lambda (https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
