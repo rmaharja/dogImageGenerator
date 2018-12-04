@@ -16,20 +16,22 @@ To execute the exercise, type: `node dogImageGenerator.js`
     - To see a tutorial for setting up a serverless app: https://medium.freecodecamp.org/i-just-deployed-a-serverless-app-and-i-cant-code-here-s-how-i-did-it-94983d7b43bd
     - Endpoint should follow the format: `https://{YOUR_SPECIFIC_URL}.execute-api.us-east-1.amazonaws.com/serverless-dog-image/{subBreed}`
     - Example endpoint would be: `https://0123456789.execute-api.us-east-1.amazonaws.com/serverless-dog-image/basset`
-    - BONUS: Optimize performance by keeping the `https://dog.ceo/api/` responses in the warm area of the lambda (https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html)
 
 We have supplied some starter code in `dogImageGenerator.js` to use as a starting point.
 API Reference: https://dog.ceo/api/
 
 ## Things we'll be looking for:
 
+## BONUS 
+### Optimize performance by doing things like: 
+- Keeping the `https://dog.ceo/api/` responses in the warm area of the lambda. If you need more information on this technique: https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html.
 - Minimize number of calls to the API
 - Optimize performance
 - Avoid callback hell
-- When finished, we expect a URL to your aws lambda endpoint and a link to your github repository containing the code that is deployed to aws
 
 ## How to start
 
 - Fork this repository :)
 - Execute `node dogImageGenerator.js`
 - Complete the code and follow the steps above
+- When finished, we expect a URL to your aws lambda endpoint and a link to your github repository containing the code that is deployed to aws along with any other documentation you wish to provide
