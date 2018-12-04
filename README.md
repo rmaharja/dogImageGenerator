@@ -20,8 +20,6 @@ To execute the exercise, type: `node dogImageGenerator.js`
 We have supplied some starter code in `dogImageGenerator.js` to use as a starting point.
 API Reference: https://dog.ceo/api/
 
-## Things we'll be looking for:
-
 ## BONUS 
 ### Optimize performance by doing things like: 
 - Keeping the `https://dog.ceo/api/` responses in the warm area of the lambda. If you need more information on this technique: https://docs.aws.amazon.com/lambda/latest/dg/best-practices.html.
