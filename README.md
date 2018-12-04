@@ -4,7 +4,7 @@ This exercise should test basic knowledge of Node.js
 
 To execute the exercise, type: `node dogImageGenerator.js`
 
-## The correct solution should answer the following questions:
+## The correct solution should pass the following steps:
 
  1. Given a list of dog breeds from the dog.ceo API, what is the count of the sub breeds for each breed?
     - Expected Output: please look at `expectedBreedCount.json`
@@ -27,3 +27,9 @@ API Reference: https://dog.ceo/api/
 - Optimize performance
 - Avoid callback hell
 - When finished, we expect a URL to your aws lambda endpoint and a link to your github repository containing the code that is deployed to aws
+
+## How to start
+
+- Fork this repository :)
+- Execute `node dogImageGenerator.js`
+- Complete the code and follow the steps above
