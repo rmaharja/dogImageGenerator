@@ -29,7 +29,7 @@ API Reference: https://dog.ceo/api/
 
 ## How to start
 
-- Fork this repository :)
+- Fork this repository: `git clone https://github.com/Intellei/animalRecognizer.git`
 - Execute `node dogImageGenerator.js`
 - Complete the code and follow the steps above
 - When finished, we expect a URL to your aws lambda endpoint and a link to your github repository containing the code that is deployed to aws along with any other documentation you wish to provide
