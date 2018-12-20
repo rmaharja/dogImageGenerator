@@ -6,7 +6,7 @@ const expectedBreedCount = require('./expectedBreedCount.json');
 async function getBreedCount() {
     const response = await axios.get('https://dog.ceo/api/breeds/list/all');
     // COMPLETE MISSING CODE HERE:
-
+    console.log("Response: ", response);
 }
 
 // Get a picture of sub-breed. Ex: 'basset'
