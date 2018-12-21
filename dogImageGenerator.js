@@ -7,22 +7,29 @@ const expectedBreedCount = require('./expectedBreedCount.json');
 async function getBreedCount() {
     const response = await axios.get('https://dog.ceo/api/breeds/list/all');
     // COMPLETE MISSING CODE HERE:
-    
-    // console.log("response.data.message: ", response.data.message);
     const dogsObject = response.data.message;
-    let x;
 
-    for (x in dogsObject) {
-    console.log(x, dogsObject[x].length);
-}
+    console.log("response.data.message: ", dogsObject);
 
-/*
-...Data returned is an object with key:value (breeds: [array of all subbreeds])
--Loop through each array
+    for (let key in dogsObject) {
+        let newObject = {
+        [key]: dogsObject[key].length
+      }
+      console.log(newObject);
+      let string
+    }
 
--if length of array in value is 0, return 0
--if length of array is not 0, return length of array in each value pair
-*/
+// ...Data returned is an object with key:value (breeds: [array of all subbreeds])
+// -Loop through each array
+
+// -if length of array in value is 0, return 0
+// -if length of array is not 0, return length of array in each value pair
+
+//     const dogsObject = response.data.message;
+//     for (var key in dogsObject) {
+//     console.log(key, dogsObject[key].length);
+// }
+
 
 
 }//end of getBreedCount
